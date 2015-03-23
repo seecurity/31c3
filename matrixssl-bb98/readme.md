@@ -10,6 +10,10 @@ $ make debug
 ```
 
 # Usage:
+The client accepts the IP of the TLS server, the PORT number of the TLS server and the base64-coded PreMasterSecret as parameters. It then prints a trace to stdout with debug information that also contains the measured timings.
+```
+Usage: ./client IP PORT base64(pms)
+```
 ```
 $ cd apps
 $ ./client 194.95.72.231 443 hX1oTZ5tMy1oD/SXkhwgji1Osp/6NaqyomWbD3MFvYa+qPlXFWRb8IEUMtUahMbQKONJ87R+sIe8r2rH/gREzvJi5sUe+PqqbY/ySX6gciX3rqSN/errz1by+AsxCXME28Rj2XGPI1RbrryQBr+7sREiT0juH1jfEbEiE+Cj1xEH6W9gVnqbaeRAwXi8VcBW8CKvE6E0F4NywUnzoMWk8RjlHAR1MABQHexU7O2cNxPXGoEl+2wzArETeJvM+HkBFHbY8s0utW3EOEgeY08RnrrZujeg2uwnBnvm5v0Sm3D3GlwCX6elWH7M853Y4rwf21T6GN3sUGwB8ViGGqqVgA==
